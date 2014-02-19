@@ -82,10 +82,19 @@ if (is_null($row['sub_proj'])) {
                     </button>
                     <a class="navbar-brand" href="index.php" style="color: #47a3da; padding-top: 13px;"><b><span class="glyphicon glyphicon-arrow-left" style="padding-right: 10px; padding-left: 5px;"></span><span style="padding-right: 20px;">BACK</span></b></a>
                     <!-- <a class="navbar-brand" href="#" style="color: #47a3da;"></a> -->
+
                   </div>
 
                   <!-- Collect the nav links, forms, and other content for toggling -->
                   <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <?php if($subProject) { ?>
+                    <span class="navbar-text" style="
+                        margin-top: 11px;
+                        margin-bottom: 0px;
+                        margin-right: 15px;
+                        margin-left: 0px;
+                    "><strong><?php echo($projName); ?></strong></span>
+                    <? } ?>
                     <ul class="nav navbar-nav">
                       <?php if($subProject) { 
                         for($i=0; $i<$num; $i++){
@@ -98,7 +107,11 @@ if (is_null($row['sub_proj'])) {
                       ?>
                       <li id="<?php echo($name) ?>"><a href="<?php echo('loadProject.php?name='.$projId.'&subProject='.$name); ?>"><?php echo($subProjName); ?></a></li>
                       <?php } } else{ ?>
-                      <li><a class="navbar-brand" style="padding-left: 0px" href="#"><?php echo($projName); ?></a></li>
+                      <li class="navbar-text" style="
+                        margin-top: 11px;
+                        margin-bottom: 0px;
+                        margin-right: 15px;
+                        margin-left: 0px;"><strong><?php echo($projName); ?></strong></li>
                       <?php } ?>
                     </ul>
                   </div><!-- /.navbar-collapse -->
