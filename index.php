@@ -61,7 +61,7 @@
 								<img src="images/portfoliothumbs/community.jpg" alt="" />
 								<div class="label">
 									<div class="label-text">
-										<a href="loadProject.php?name=advanceSocialProjects&subProject=cotr" class="text-title">Advance Social Projects</a>
+										<a href="loadProject.php?name=advanceSocialProjects&subProject=cotr" class="text-title"><span class="glyphicon glyphicon-th-large" style="padding-right: 5px;"></span>Advanced Social Projects</a>
 										<span class="text-category">Implementation of Social Components</span>
 									</div>
 									<a href="loadProject.php?name=advanceSocialProjects&subProject=cotr"><div class="label-bg"></div></a>
@@ -74,7 +74,7 @@
 								<img src="images/portfoliothumbs/graphicDesign.jpg" alt="" />
 								<div class="label">
 									<div class="label-text">
-										<a href="loadProject.php?name=graphic&subProject=web" class="text-title">Graphics Design</a>
+										<a href="loadProject.php?name=graphic&subProject=web" class="text-title"><span class="glyphicon glyphicon-th-large" style="padding-right: 5px;"></span>Graphic Design</a>
 										<span class="text-category">For Web, Print, Logos</span>
 									</div>
 									<a href="loadProject.php?name=graphic&subProject=web"><div class="label-bg"></div></a>
@@ -126,7 +126,7 @@
 								<img src="images/portfoliothumbs/workex.jpg" alt="" />
 								<div class="label">
 									<div class="label-text">
-										<a href="loadProject.php?name=workex&subProject=tug" class="text-title">Work Experience</a>
+										<a href="loadProject.php?name=workex&subProject=tug" class="text-title"><span class="glyphicon glyphicon-th-large" style="padding-right: 5px;"></span>Work Experience</a>
 										<span class="text-category">At TUG, University of Michigan</span>
 									</div>
 									<a href="loadProject.php?name=workex&subProject=tug"><div class="label-bg"></div></a>
@@ -139,7 +139,7 @@
 								<img src="images/portfoliothumbs/infoViz.jpg" alt="" />
 								<div class="label">
 									<div class="label-text">
-										<a href="loadProject.php?name=infoviz&subProject=socialtracker" class="text-title">Information Visualization</a>
+										<a href="loadProject.php?name=infoviz&subProject=socialtracker" class="text-title"><span class="glyphicon glyphicon-th-large" style="padding-right: 5px;"></span>Information Visualization</a>
 										<span class="text-category">Visualizing data using D3.js</span>
 									</div>
 									<a href="loadProject.php?name=infoviz&subProject=socialtracker"><div class="label-bg"></div></a>
@@ -152,7 +152,7 @@
 								<img src="images/portfoliothumbs/designComp.jpg" alt="" />
 								<div class="label">
 									<div class="label-text">
-										<a href="loadProject.php?name=descomp&subProject=aroundme" class="text-title">Design Competitions</a>
+										<a href="loadProject.php?name=descomp&subProject=aroundme" class="text-title"><span class="glyphicon glyphicon-th-large" style="padding-right: 5px;"></span>Design Competitions</a>
 										<span class="text-category">Design Jams and Competitions</span>
 									</div>
 									<a href="loadProject.php?name=descomp&subProject=aroundme"><div class="label-bg"></div></a>
